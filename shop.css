@@ -46,13 +46,15 @@ footer {
 }
 
 .left {
-	float: left;
+	float: right;
 	position: relative;
+	display: inline-block;
 }
 
 .right {
 	float: right;
 	position: relative;
+	display: inline-block;
 }
 
 .topnav {
@@ -66,6 +68,7 @@ footer {
     border: none;
     margin-top: 8px;
     font-size: 17px;
+    position: sticky;
 }
 
 .left {
@@ -86,35 +89,32 @@ img {
 	height: 300px;
 }
 
-.row .itemL, .row .itemC, .row .itemR {
+div .filter {
+	max-width: 20%;
+	display: inline-block;
+}
+
+.row .itemL,
+.row .itemC,
+.row .itemR,
+.rows .itemL,
+.rows .itemC,
+.rows .itemR {
 	vertical-align: middle;
-	float: left;
+	float: right;
 	max-width: 100%;
 	padding: 50px;
 	overflow: hidden;
+	display: inline-block;
 }
 
-.rows .itemL, .rows .itemC, .rows .itemR {
-	vertical-align: middle;
-	float: left;
-	max-width: 100%;
-	padding: 50px;
-	overflow: hidden;
+.itemR {
+	margin-left: 300px;
 }
 
-
-.row {
+.rows, .row {
 	text-align: center;
 	display: inline-block;
-	margin-left: 200px;
-	margin-right: 0 auto;
-	max-width: 100%;
-}
-
-.rows {
-	text-align: center;
-	display: inline;
-	margin-left: 60px;
 	margin-right: 0 auto;
 	max-width: 100%;
 	position: relative;
@@ -123,22 +123,6 @@ img {
 .vl {
 	border-left: 2px solid black;
 	height: 50%;
-}
-
-.rows img {
-	margin-left: 100px;
-}
-
-.rows .text1 {
-	margin-left: 100px;
-}
-
-.rows .text2 {
-	margin-left: 100px;
-}
-
-.rows .text3 {
-	margin-left: 100px;
 }
 
 .left, .text1, .text2, .text3 {

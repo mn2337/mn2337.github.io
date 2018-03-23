@@ -21,7 +21,6 @@ header {
 	clear: none;
 	margin: 0 auto;
 	letter-spacing: 3px;
-	color: #F4FEFF;
 }
 
 header:visited {
@@ -35,7 +34,6 @@ footer {
 	width: 100%;
 	letter-spacing: 3px;
 	position: static;
-	color: #F4FEFF;
 	font-size: 12px;
 }
 
