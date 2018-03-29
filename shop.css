@@ -13,6 +13,14 @@
 	display: table;
 }
 
+h1 a {
+	padding-left: 500px;
+}
+
+hr {
+	width: 100%;
+}
+
 header {
 	text-align: center;
 	left: 0;
@@ -47,7 +55,7 @@ footer {
 
 .left {
 	float: right;
-	position: relative;
+	position: absolute;
 	display: inline-block;
 }
 
@@ -58,7 +66,7 @@ footer {
 }
 
 .topnav {
-    text-align: center;
+    text-align: cen----------ter;
     position: sticky;
 }
 
@@ -66,7 +74,7 @@ footer {
 .topnav input[type=text] {
     padding: 6px;
     border: none;
-    margin-top: 8px;
+    margin: 0 auto;
     font-size: 17px;
     position: sticky;
 }
@@ -92,6 +100,8 @@ img {
 div .filter {
 	max-width: 20%;
 	display: inline-block;
+	z-index: 4;
+	overflow: hidden;
 }
 
 .row .itemL,
@@ -100,7 +110,7 @@ div .filter {
 .rows .itemL,
 .rows .itemC,
 .rows .itemR {
-	vertical-align: middle;
+	vertical-align: top;
 	float: right;
 	max-width: 100%;
 	padding: 50px;
@@ -118,6 +128,17 @@ div .filter {
 	margin-right: 0 auto;
 	max-width: 100%;
 	position: relative;
+}
+
+.products {
+	overflow: visible;
+	vertical-align: top;
+	position: relative;
+	bottom: 500px;
+	max-width: 90%;
+	float: right;
+	display: inline-block;
+	max-height: auto;
 }
 
 .vl {

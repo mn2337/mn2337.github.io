@@ -34,6 +34,10 @@ footer {
 	font-size: 12px;
 }
 
+hr {
+	max-width: 100%;
+}
+
 ::selection {
 	background-color: #DEF2F1;
 }
@@ -56,17 +60,20 @@ footer {
 	display: inline-block;
 	max-width: 50%;
 	padding-top: 200px;
+	padding-left: 200px;
 }
 
 .mright {
 	float: right;
 	position: relative;
 	overflow: hidden;
+	padding-right: 200px;
 }
 
 img {
 	height: 800px;
 	width: 600px;
+	border: 1px solid #2B7A78;
 }
 
 .item h2 {
