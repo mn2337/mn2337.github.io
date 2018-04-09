@@ -18,10 +18,11 @@
 		<div class="mleft">
 			<div class="item">
 				<h2>Live among the parakeets</h2>
-				<h3>$88</h3>
+				<h3 id="price">$88</h3>
 			</div>
 			<div class="desc">
 				<p>Live among the parakeets in a virtual trip around Rio de Janeiro. This virtual excersion lasts for 4 hours and includes ziplining and feeding some birds. All the fun of living in Brazil without the heat stroke or language barriers. Limited time offer: ends 4/1/18.</p>
+			<input type="checkbox" id="chk" onclick="isChecked('chk','price');">carnaval bundle (+ $50)<br>
 			</div>
 			<div class="buttons">
 				<a href="#" class="button">Purchase</a>
@@ -40,6 +41,19 @@
 			<pre>not responsible for jerks scamming you</pre>
 			<pre>&copy youtopia 2018</pre>
 		</footer>
+		<script type="text/javascript">
+			function isChecked(chkbx, pricechng) {
+				var cb = document.getElementById(chkbx);
+				var amt = document.getElementById(pricechng);
+				if(cb.checked === false){
+					amt.innerHTML = "$88";
+				}
+				else{
+					amt.innerHTML = "$138";
+				}
+			}
+
+		</script>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 		<script src="js/scripts.js"></script>
 	</body>
