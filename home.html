@@ -1,70 +1,99 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>~youtopia~</title>
-		<meta name="home page for youtopia" content="still youtopia">
-		<meta author="michael nelson">
-		<link rel="stylesheet" type="text/css" href="home.css">
-		<script src="js/modernizr-2.6.2.min.js"></script>
-	</head>
-	<body>
-		<header>
-			<h3 class="left"><a href="shop.html">--shop</a></h3>		
-			<h3 class="right"><a href="#">my profile--</a></h3>
-			<h1><a href="home.html">youtopia</a></h1>
-			<hr/>
-		</header>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>youtopia</title>
 
-		<div class="clearfix">
-		<div class="row">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="home.css" rel="stylesheet">
+    <style>
+      img {
+        width: 100%;
+      }
+    </style>
+    <script type="text/javascript">
+      
+    </script>
+  </head>
 
-			<div class="itemL">
-				<a href="#">
-				<img class="bottom" style="float:left; display:inline" src="model.png"/>
-				</a>
-				<a href="#">
-				<img class="top" style="float:left; display:inline" src="modelp.png"/>
-				</a>
-					<div class="text1">
-						<p>Go on a date with your favorite supermodel</p>
-						<p>$150</p>
-					</div>
-			</div>
+  <body>
 
-			<div class="itemC">
-				<a href="item.html">
-				<img class="bottom" style="float:left; display:inline" src="mars.png"/>
-				</a>
-				<a href="item.html">
-				<img class="top" style="float:left; display:inline" src="marsp.png"/>
-				</a>
-					<div class="text2">
-						<p class="caption">Travel to Mars</p>
-						<p class="price">$420</p>
-					</div>
-			</div>
+    <header>
+      <div class="navbar navbar-default navbar-fixed-top">
+      <div class=" text-center navbar-header"><a href="shop.html">..shop</a></h1></div>
+      <ul class="nav navbar-nav">
+        <li class="text-left">
+          <a href="home.html">youtopia</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav pull-right">
+        <li class="text-right">
+          <a href="login.html">yourtopia..</a>
+        </li>
+      </ul>
+    </div>
+   </header>
 
-			<div class="itemR">
-				<a href="#"> 
-				<img class="bottom" style="float:left; display:inline" src="bread.png"/>
-				</a>
-				<a href="#"> 
-				<img class="top" style="float:left; display:inline" src="breadp.png"/>
-				</a>
-					<div class="text3">
-						<p class="caption">Slice a baguette</p>
-						<p class="price">$3</p>
-					</div>
-			</div>
+    <div class="wrapper">
+      <div id="caro" class="carousel slide" data-ride="carousel" data-ride="hover">
 
-		</div>
-		</div>
-		<footer>
-			<hr/>
-			<pre>site courtesy of michael nelson</pre>
-			<pre>not responsible for jerks scamming you</pre>
-			<pre>&copy youtopia 2018</pre>
-		</footer>
-	</body>
+        <ul class="carousel-indicators">
+          <li data-target="#caro" data-slide-to="0" class="active"></li>
+          <li data-target="#caro" data-slide-to="1"></li>
+          <li data-target="#caro" data-slide-to="2"></li>
+        </ul>
+
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img class="under" src="model.png" alt="model" width="100%" height="800">
+            <img class="over" src="modelp.png" alt="model" width="100%" height="800">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>go on a date with your favorite supermodel</h3>
+                <p>$200</p>
+              </div>
+          </div>
+
+          <div class="carousel-item">
+            <img class="under" src="mars.png" alt="mars" width="100%" height="800">
+            <img class="over" src="marsp.png" alt="mars" width="100%" height="800">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>travel to mars</h3>
+                <p>$60,248</p>
+              </div>
+          </div>
+
+          <div class="carousel-item">
+            <img class="under" src="bread.png" alt="baguette" width="100%" height="800">
+            <img class="over" src="breadp.png" alt="baguette" width="100%" height="800">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>eat some tasty bread</h3>
+                <p>$30</p>
+              </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#caro" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#caro" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+
+      </div>
+    </div>
+
+    <footer class="text-center">
+      <hr/>
+      <pre>site courtesy of michael nelson</pre>
+      <pre>not responsible for jerks scamming you</pre>
+      <pre>&copy youtopia 2018</pre>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>

@@ -1,4 +1,4 @@
-a, h3, h4, p, input {
+a, h5, p, input {
 	color: #2B7A78;
 }
 
@@ -20,7 +20,7 @@ h1 {
 	margin: 0 auto; 
 }
 
-header, footer, h3 {
+header, footer {
 	letter-spacing: 2px;
 }
 
@@ -28,14 +28,19 @@ header, footer, h3 {
 	font-size: 35px;
 }
 
-.input-group, .img-responsive {
+.unimp {
+	font-size: 1rem;
+}
+
+h5 {
+	letter-spacing: 1.5px;
+}
+
+.img-responsive {
 	border: 2px solid #2B7A78;
+	display: block;
+	margin: 0 auto;
 }
-
-.desc {
-	margin-top: 30%;
-}
-
 div .button {
 	text-align: center;
 	margin: 0 auto;
@@ -52,7 +57,7 @@ div .button {
 	transition: 0.3s;
 	display: block;
 	cursor: pointer;
-	width: 250px;
+	width: 150px;
 	border: 0.5px solid #2B7A78;
 	color: #2B7A78;
 	letter-spacing: 1.5px;

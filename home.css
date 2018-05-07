@@ -1,117 +1,71 @@
-* {
-	box-sizing: border-box;
+a {
+	color: #2B7A78;
+}
+
+a:hover {
 	text-decoration: none;
-	text-transform: lowercase;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    font-weight: 300;
-}
-
-.clearfix::after {
-	content: "";
-	clear: both;
-	display: table;
-}
-
-header {
-	text-align: center;
-	left: 0;
-	top: 0;
-	width: 100%;
-	display: inline;
-	clear: none;
-	margin: 0 auto;
-	letter-spacing: 3px;
-}
-
-header:visited {
-	color: inherit;
-}
-
-footer {
-	text-align: center;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	letter-spacing: 3px;
-	position: static;
-	font-size: 12px;
-}
-
-hr {
-	width: 100%;
 }
 
 ::selection {
-	background-color: #DEF2F1;
+	color: #DEF2F1;
 }
 
-.itemL, .itemC, .itemR {
-	vertical-align: middle;
-	float: left;
-	max-width: 33%;
-	padding: 5px;
-	overflow: hidden;
-	height: 910px;
-	position: relative;
-	padding-left: 10px;
+pre {
+	font-size: 9px;
+	border: 0 auto;
+	margin: 0 auto;
 }
 
-.left {
-	float: left;
-	position: relative;
-}
-
-.right {
-	float: right;
-	position: relative;
-}
-
-.row {
-	text-align: center;
-	display: inline-block;
-	margin-left: 0 auto;
-	margin-right: 0 auto;
-	max-width: 100%;
-}
-
-.text1, .text2, .text3 {
-	color: #FEFFFF;
-	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-	font-size: 20px;
-	position: absolute;
-}
-
-.text1 {
-	transform: translate(80px, 700px);
-}
-
-.text2, .text3 {
-	transform: translate(200px, 700px);
-}
-
-.itemL img,
-.itemC img,
-.itemR img {
+.carousel-inner img {
 	position: relative;
 	transition: opacity 1s ease-in-out;
 	overflow: hidden;
 }
 
-.itemL img.top,
-.itemC img.top,
-.itemR img.top {
+.carousel-inner img.over {
 	z-index: -1;
-	bottom: 910px;
+	bottom: 800px;
 }
 
-.itemL img.bottom,
-.itemC img.bottom,
-.itemR img.bottom {
+.carousel-inner img.under {
 	z-index: 1;
 }
 
-.itemL:hover img.bottom,
-.itemC:hover img.bottom,
-.itemR:hover img.bottom {
+.carousel-inner:hover img.under {
 	opacity: 0;
+}
+
+.text-left {
+	font-size: 45px;
+}
+
+.carousel-item {
+	height: 800px;
+}
+
+.carousel-caption {
+	transition: opacity 1s ease-in-out;
+	opacity: 0;
+}
+
+.carousel-item:hover .carousel-caption {
+	opacity: 1;
+}
+
+h1 { 
+	margin: 0 auto; 
+}
+
+header, footer, h3 {
+	letter-spacing: 2px;
+}
+
+img {
+	border: 2px solid #2B7A78;
+	display: block;
+	margin: 0 auto;
+}
+
+.social {
+	display: fixed;
 }

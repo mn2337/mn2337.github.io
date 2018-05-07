@@ -8,13 +8,12 @@
     <title>youtopia</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="item.css" rel="stylesheet">
+    <link href="login.css" rel="stylesheet">
 
     <script type="text/javascript"></script>
   </head>
 
   <body>
-
     <header>
       <div class="navbar navbar-default navbar-fixed-top">
       <div class=" text-center navbar-header"><a href="shop.html">..shop</a></h1></div>
@@ -33,29 +32,27 @@
     </header>
 
     <div class="container-fluid">
+      <br/><br/><br/><br/>
       <div class="row">
-        <div class="col-sm-1"></div>
-        <div class="col-sm-4 text-center">
-          <div class="desc">
-            <h3>live among the parakeets</h3>
-            <h4 id="price">$188</h4>
-            <br/>
-            <p>live among the parakeets in a virtual trip around Rio de Janeiro. this virtual excersion lasts for 4 hours and includes ziplining and feeding some birds. all the fun of living in Brazil without the heat stroke or language barriers.<br/><br/><strong>limited time offer: ends 6/1/18</strong></p></div>
-            <input type="checkbox" id="chk" onclick="isChecked('chk','price');">   carnaval bundle ($50)<br/>
-            <br/>
-            <div class="buttons">
-              <a href="cart.html" class="button" onclick="confirm()">purchase</a>
-              <a href="#" class="button">save for later</a>
-              <a href="#" class="button">seller's profile</a>
-            </div>
-          </div>
-        <div class="col-sm-1"></div>
-        <div class="col-sm-6">
-          <img src="keet.png" class="img-responsive" style="width:100%" alt="image">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4">
+          <img src="scan.png" class="img-responsive" style="width:100%" alt="image">
         </div>
+        <div class="col-sm-4 sd">
+          <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon3"></span>
+            <input type="text" class="form-control text-left unimp" placeholder="username">
+          </div>
+          <br/>
+          <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon3"></span>
+            <input type="text" class="form-control text-right unimp" placeholder="password">
+          </div>
+        </div>
+        <div class="col-sm-2"></div>
       </div>
     </div>
-
+    <br/><br/><br/><br/>
     <footer class="text-center">
       <hr/>
       <pre>site courtesy of michael nelson</pre>
@@ -67,27 +64,6 @@
         </a>
       </div>
     </footer>
-
-    <script type="text/javascript">
-      function isChecked(chkbx, pricechng) {
-        var cb = document.getElementById(chkbx);
-        var amt = document.getElementById(pricechng);
-        if(cb.checked === false){
-          amt.innerHTML = "$188";
-        }
-        else{
-          amt.innerHTML = "$238";
-        }
-      }
-
-      function confirm() {
-        alert("added to your cart.")
-        alert("ok?")
-        alert("ok.")
-        alert("goodbye.")
-      }
-
-    </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

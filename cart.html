@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>youtopia</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="cart.css" rel="stylesheet">
+
+    <script type="text/javascript"></script>
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="navbar navbar-default navbar-fixed-top">
+      <div class=" text-center navbar-header"><a href="shop.html">..shop</a></h1></div>
+      <ul class="nav navbar-nav">
+        <li class="text-left">
+          <a href="home.html">youtopia</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav pull-right">
+        <li class="text-right">
+          <a href="login.html">yourtopia..</a>
+        </li>
+      </ul>
+    </div>
+    <hr/>
+    </header>
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4 text-center">
+          <img src="keet.png" class="img-responsive" style="width:50%" alt="image">
+          <h5>live among the parakeets</h5>
+          <hr/>
+        </div>
+        <div class="col-sm-4"></div>
+     </div>
+
+     <div class="form-row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6 text-center">
+          <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon3"></span>
+            <input type="text" class="form-control text-center" placeholder="name">
+          </div>
+        </div>
+        <div class="col-sm-3"></div>
+     </div>
+
+     <div class="form-row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6 text-center">
+          <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon3"></span>
+            <input type="text" class="form-control text-center" placeholder="address">
+          </div>
+        </div>
+        <div class="col-sm-3"></div>
+     </div>
+
+     <div class="form-row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-2 text-center">
+          <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon3"></span>
+            <input type="text" class="form-control text-center" placeholder="state">
+          </div>
+        </div>
+        <div class="col-sm-2 text-center">
+          <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon3"></span>
+            <input type="text" class="form-control text-center" placeholder="city">
+          </div>
+        </div>
+        <div class="col-sm-2 text-center">
+          <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon3"></span>
+            <input type="text" class="form-control text-center" placeholder="zip">
+          </div>
+        </div>
+        <div class="col-sm-3"></div>
+     </div>
+
+     <br/>
+
+     <div class="form-row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6 text-center">
+          <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon3"></span>
+            <input type="text" class="form-control text-center" placeholder="card no.">
+          </div>
+        </div>
+        <div class="col-sm-3"></div>
+     </div>
+    
+     <div class="form-row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-2 text-center">
+          <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon3"></span>
+            <input type="text" class="form-control text-center" placeholder="security no.">
+          </div>
+        </div>
+        <div class="col-sm-2 text-center">
+          <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon3"></span>
+            <input type="text" class="form-control text-center" placeholder="exp. month">
+          </div>
+        </div>
+        <div class="col-sm-2 text-center">
+          <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon3"></span>
+            <input type="text" class="form-control text-center" placeholder="exp. year">
+          </div>
+        </div>
+        <div class="col-sm-3"></div>
+     </div>
+
+     <br/>
+
+     <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4 text-center">
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" onclick="add4d()">
+            <label class="custom-control-label" for="customRadioInline1">4d</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input" onclick="add5d()">
+            <label class="custom-control-label" for="customRadioInline2">5d</label>
+          </div>
+        </div>
+        <div class="col-sm-4"></div>
+     </div> 
+    
+     <br/><br/>
+
+     <div class="form-row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3 text-left">
+          <p class="unimp">price before tax</p>
+        </div>
+        <div class="col-sm-3 text-right">
+          <p id="total">188.00</p>
+        </div>
+        <div class="col-sm-3"></div>
+     </div>
+
+     <div class="form-row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3 text-left">
+          <p class="unimp">price after tax</p>
+        </div>
+        <div class="col-sm-3 text-right">
+          <p id="ntax">--</p>
+        </div>
+        <div class="col-sm-3"></div>
+     </div>
+
+     <div class="form-row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3 text-left">
+          <p class="unimp">price after tax & qual</p>
+        </div>
+        <div class="col-sm-3 text-right">
+          <p id="nship">--</p>
+        </div>
+        <div class="col-sm-3"></div>
+     </div>
+      
+     <br/>
+      
+     <div class="form-row">
+        <div class="col-sm-5"></div>
+        <div class="col-sm-2 text-center">
+          <div class="buttons">
+              <a href="#" class="button">finalize</a>
+          </div>
+        </div>
+        <div class="col-sm-5"></div>
+     </div>
+
+    <footer class="text-center">
+      <hr/>
+      <pre>site courtesy of michael nelson</pre>
+      <pre>not responsible for jerks scamming you</pre>
+      <pre>&copy youtopia 2018</pre>
+      <div>
+        <a href="https://instagram.com/fec.es">
+        <img class="social" title="Instagram" alt="RSS" src="insta.png" width="35" height="35" />
+        </a>
+      </div>
+    </footer>
+    <script>
+      
+        function add4d() {
+          document.getElementById("ntax").innerHTML = (188 + 188 * 0.0882).toFixed(2);
+          document.getElementById("nship").innerHTML = (204.58 + 204.48 * 0.4).toFixed(2);
+        }
+
+        function add5d() {
+          document.getElementById("ntax").innerHTML = (188 + 188 * 0.0882).toFixed(2);
+          document.getElementById("nship").innerHTML = (204.58 + 204.48 * 0.5).toFixed(2);
+        }
+      
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,11 +1,11 @@
-a, input, h4, h5 {
+a, h3, h4, p, input {
 	color: #2B7A78;
 }
 
 a:hover {
 	text-decoration: none;
 }
-
+S
 ::selection {
 	color: #DEF2F1;
 }
@@ -16,7 +16,11 @@ pre {
 	margin: 0 auto;
 }
 
-header, footer, h4, h5 {
+h1 { 
+	margin: 0 auto; 
+}
+
+header, footer {
 	letter-spacing: 2px;
 }
 
@@ -24,15 +28,14 @@ header, footer, h4, h5 {
 	font-size: 35px;
 }
 
-.col-sm-3 img{
-	border: 2px solid #2B7A78;
-	margin-top: 30px;
+.unimp {
+	font-size: 1rem;
 }
 
-.swoop {
-	max-width: 90px;
-	max-height: 160px;
-	width: auto;
-	height: auto;
-	display: block;
+.col-sm-4 {
+	border: 1px solid #2B7A78;
+}
+
+.sd {
+	padding-top: 12%;
 }
